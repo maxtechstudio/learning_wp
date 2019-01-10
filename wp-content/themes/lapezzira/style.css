@@ -1,0 +1,130 @@
+/* 
+Theme Name: La Pizzeria 
+Theme URI:
+Author : Max Pal
+Author URI: http://www.depakpal.com.np
+Description: Theme For Resturants
+Version: 1.01
+License : GNU General Public Liciense V2.0
+Liciense URI: http://www.gnu.org/license/glp-2.0.html
+Tags: Restaurants, mobile first, responsive , pizza
+Text Diomain: pizza
+*/
+html {
+
+    box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px;
+
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.clear,
+.clear::after {
+
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sr-text {
+    display: none;
+}
+
+/* header */
+header.site-header {
+    border-bottom: 2px solid #c1c1c1;
+    padding-bottom: 30px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo_svg {
+    width: 200px;
+}
+
+@media only screen and (min-width:768px) {
+    .logo {
+        text-align: center;
+    }
+
+    .logo_svg {
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .logo {
+        text-align: center;
+    }
+
+    .logo_svg {
+        width: 180px;
+    }
+
+}
+
+@media only screen and (min-width:768px) {
+    header.site-header .container {
+        position: relative;
+
+    }
+
+    header.site-header .header-information {
+        position: absolute;
+        top: 0;
+        right: 0;
+        float: right;
+    }
+}
+
+div.menu-info {
+
+    display: block;
+    padding-top: 10px;
+    clear: both;
+}
+
+div.menu-info p {
+
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+@media only screen and (min-width:768px) {
+    div.menu-info p {
+        text-align: right;
+
+    }
+
+}
